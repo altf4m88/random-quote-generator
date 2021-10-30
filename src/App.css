@@ -3,14 +3,28 @@
 }
 
 #quote-box{
-  width: 50rem;
+  width: 40rem;
 }
 
 .quotation-mark{
   font-size: 40px;
   font-weight: 800;
+  line-height: normal;
+}
+
+.quote-box-button{
+  transition: background-color 1s ease;
 }
 
 #text{
   font-size: 24px;
+  transition: opacity 1s ease;
+}
+
+#author{
+  transition: opacity 1s ease;
+}
+
+#background{
+  transition: background-color 1s ease;
 }
