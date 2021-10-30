@@ -110,7 +110,9 @@ class Main extends React.Component{
                                 </a>
                             </div>
                             <div className="d-flex justify-content-end">
-                                <button className="quote-box-button btn btn-primary btn-lg" onClick={this.changeQuote} id="new-quote">New Quote</button>
+                                <button className="quote-box-button btn btn-primary btn-lg" onClick={this.changeQuote} id="new-quote">
+                                New Quote  <i class="fas fa-caret-right"></i> 
+                                </button>
                             </div>
                         </div>
                     </div>
